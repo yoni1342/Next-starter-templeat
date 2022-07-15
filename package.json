@@ -13,7 +13,7 @@
 		"start": "next start",
 		"lint": "next lint",
 		"prettier": "prettier --write .",
-    "prepare": "husky install"
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"next": "12.2.2",
@@ -21,6 +21,8 @@
 		"react-dom": "18.2.0"
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^17.0.3",
+		"@commitlint/config-conventional": "^17.0.3",
 		"eslint": "8.19.0",
 		"eslint-config-next": "12.2.2",
 		"hasky": "^3.0.2",
